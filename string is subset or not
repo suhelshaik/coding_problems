@@ -1,0 +1,22 @@
+PROBLEM:
+	Check whether string ‘A’ is subset of string ‘B’ or not 
+DESCRIPTION:
+	Two strings are given. Initialise them into sets. using built-in-function ‘ISSUBSET()’ we compare whether ‘A’ is subset of ‘B’ or not. If function returns true then ‘A’  is subset of ‘B’ else not a subset.
+SOURCE CODE:
+a=set(input("enter first string:"))
+b=set(input("enter second string:"))
+if(a.issubset(b)==bool(1)):              #bool(1) refers to true i.e, boolian operater
+    print("a is subset of b")
+else:
+    print("a is not subset of b")
+INPUT:
+enter first string: power
+enter second string: empower
+OUTPUT:
+A is subset of b
+ANALYSIS:
+ 	Using built-in-function ‘issubset’ we verify whether ‘A’ is subset of ’B’ or not. If true return ‘A’ is subset of ‘B’ else not a subset .
+COMPLEXITY:
+	Time complexity of the algorithm is ‘O(1)’
+    
+                                                                                    #by suhelshaik
